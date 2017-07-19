@@ -1,0 +1,149 @@
+.prodHolder{
+
+	
+	float:left;
+	width:404px;
+    height:377px;
+    border-right: 1px solid #fff;
+    position: relative;
+    overflow: hidden;
+
+}
+/*.prodHolder:hover img{
+
+	margin-top: -188px;
+}*/
+.prodHolder:hover .prodDesc p a{
+	color:#fff;
+}
+.prodHolder:hover .prodDesc p{
+	color:#fff;
+	
+}
+
+.prodHolder:hover .prodDesc h4{
+	color:#fff;
+}
+.prodDescHolder{
+	background: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    line-height: 188px;
+}
+.prodDesc{
+	position: relative;
+    float: left;
+    width: 201.3px;
+
+}
+.prodHolder:hover #prodDesc{
+	background: #1867A5;
+}
+.prodDesc img{
+	margin-left: 32px;
+	margin-top:0px !important;
+}
+.prodDesc h4{
+	font-size: 17px;
+    color: #7b8d97;
+    font-family: sans-serif;
+    margin-left: 32px;
+}
+.prodDesc p{
+	line-height: 17px;
+    font-size: 14px;
+    color: #7b8d97;
+    height: 53px;
+    width: 69%;
+   	margin-left: 32px;
+    font-family:Museo-300;
+
+}
+.prodDesc p a{
+	font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: #7b8d97;
+    margin-top:20px;
+
+}
+
+.prodDesc p a:hover{
+	text-decoration: none;
+}
+
+.link{
+	height: 40px;
+    margin-top: 35px;
+   	margin-left: 32px;
+}
+
+.tlHolder{
+	width: 404px;
+    background: rgba(255, 255, 255, .9);
+    height: 162px;
+    margin-top: -161px;
+    position: relative;
+}
+.tlHolder-project{
+    width: 450px;
+    height: 162px;
+    color:white;
+    margin-top: -161px;
+    position: relative;
+    font-size: 20px;
+    line-height: 26px;
+    font-family:Museo-300;
+}
+.tlHolder img{
+	margin:10px;
+	width:120px;
+	height: 41px;
+	margin-left: 25px;
+    margin-top: 23px;
+
+}
+.tlHolder p{
+	margin:10px;
+	font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-family:Museo-300;
+    color:#7b8d97;
+    margin-left: 25px;
+    line-height: 21px;
+
+	
+}
+#main-block{
+	padding:0px;
+
+}
+.prodHolder-block{
+	background: #7B8D97;
+	border-right: 1px solid #fff;
+}
+.prodHolder-block p{
+	font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+    font-family:Museo-300
+    margin:28px;
+
+}
+.proHolder-desc-block{
+	position: relative;
+}
+
+
+#main-block .col-md-2{
+	position: relative;
+	float: left;
+}
+#main-block .efHolder{
+	position: relative;
+	float: left;
+	width: 100%;
+}

@@ -1,0 +1,226 @@
+.pre-line{
+  white-space: pre-line;
+}
+.processing-page-load {
+  overflow: hidden;
+  background-color: #FFF;
+  pointer-events: none;
+
+}
+.page-loading {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+.page-loading p {
+  letter-spacing: .05ex;
+  font-weight: 300;
+  color: #676767;
+  margin: 10px 0;
+}
+
+.single-file-image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #ecf0f1;
+  border: 3px solid #bdc3c7;
+  border-radius: 5px;
+}
+.single-file-image input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+.single-file-image label {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #bdc3c7;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.data-table.table>tbody>tr>td{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.data-table.table>tbody>tr>td>img{
+  max-height: 150px; 
+}
+
+a.colorbox{
+  
+}
+
+.swal2-select{
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.user-profile-image{
+  width: 100%;
+  max-width: 45px;
+  height: auto;
+}
+
+.user-profile-image-table{
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+.user-footer .col-xs-4{ padding: 0; }
+/*For Profile , Import , Export*/
+
+#image_logo
+{
+  height: 90px !important;
+}
+#image_logo_panel
+{
+  height: 90px !important;
+  position: relative;
+  left: -350px;
+}
+#dropdown
+{
+  height: 90px !important;
+  position:relative;
+  left:340px;
+  background-color : #0d47a1;
+}
+#dropdown-menu{
+  padding-top: 10px;
+  height: 60px;
+}
+
+#user-image{
+  width: 40px;
+  height: 40px;
+  vertical-align:middle;
+  border-radius: 20px;
+}
+#user-name{
+  font-size: 17px;
+}
+.box-table .box-body table img{
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: cover;
+}
+.box-table.box-table-image .box-body .table>tbody>tr>td, 
+.box-table.box-table-image .box-body .table>tbody>tr>th, 
+.box-table.box-table-image .box-body .table>tfoot>tr>td, 
+.box-table.box-table-image .box-body .table>tfoot>tr>th, 
+.box-table.box-table-image .box-body .table>thead>tr>td, 
+.box-table.box-table-image .box-body .table>thead>tr>th{
+    vertical-align: middle;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*@media(max-width: 768px){ 
+  #dropdown{
+    margin-right: 340px;
+    height: 70px !important;
+  }
+  #dropdown-menu{
+  height: 40px;
+  padding-top: 0px;
+  }
+  .blue-btn
+  {
+      background-color: #3c8dbc !important;
+  }
+  .red-btn
+  {
+      background-color: #dd4b39 !important;
+  }
+}*/
+
+

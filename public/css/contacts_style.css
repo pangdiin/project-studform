@@ -1,0 +1,123 @@
+.tlHolderContact{
+	width: 404px;
+    background: rgba(255, 255, 255, .9);
+    height: 152px;
+    margin-top: -151px;
+    position: relative;
+}
+.tlHolderContact p{
+	margin:10px;
+	font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#7b8d97;
+    margin-left: 25px;
+
+
+	
+}
+.paragHolder{
+	padding-top: 2px;
+}
+.contact-details {
+    float: left;
+    width: 335px;
+    padding: 62px 10px 0 10px;
+    border: none;
+    background: #fff;
+}
+.header2{
+	font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    color: #7b8d97;
+    font-family: sans-serif;
+    padding-bottom: 14px;
+
+
+}
+.contact-details table{
+	border-top: 1px solid #ccc;
+	margin-bottom: 60px;
+}
+.contact-details table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-details table tr td span{
+	font-size: large;
+    color: #7b8d97;
+}
+.contactform {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+.contactform .input-box .input-text {
+    height: 50px;
+    width: 100%;
+    margin: 0 0 10px;
+    background: #f8f8f8;
+    border: 0;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #7b8d97;
+}
+.contactform .text-area{
+    width: 100%;
+    margin: 0 0 10px;
+    background: #f8f8f8;
+    border: 0;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #7b8d97;
+	height:140px;
+}
+#state{
+	position: relative;
+	float:left;
+	width: 67%;
+	margin-right: 12px;
+
+}
+#postcode{
+	position: relative;
+	float:left;
+	width:30%;
+}
+.buttons-set p{
+	color: #7b8d97;
+}
+.btnSubmit {
+  background: #a3afb6;
+  background-image: -webkit-linear-gradient(top, #a3afb6, #a3afb6);
+  background-image: -moz-linear-gradient(top, #a3afb6, #a3afb6);
+  background-image: -ms-linear-gradient(top, #a3afb6, #a3afb6);
+  background-image: -o-linear-gradient(top, #a3afb6, #a3afb6);
+  background-image: linear-gradient(to bottom, #a3afb6, #a3afb6);
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+  border:none;
+  float: right;
+  margin-top: -35px;
+
+}
+
+.btnSubmit:hover {
+  background: #7b8d97;
+  background-image: -webkit-linear-gradient(top, #7b8d97, #7b8d97);
+  background-image: -moz-linear-gradient(top, #7b8d97, #7b8d97);
+  background-image: -ms-linear-gradient(top, #7b8d97, #7b8d97);
+  background-image: -o-linear-gradient(top, #7b8d97, #7b8d97);
+  background-image: linear-gradient(to bottom, #7b8d97, #7b8d97);
+  text-decoration: none;
+}

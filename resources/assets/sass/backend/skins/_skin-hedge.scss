@@ -1,0 +1,50 @@
+/*
+ * Skin: Purple
+ * ------------
+ */
+
+.skin-hedge {
+  //Navbar
+  .main-header {
+    .navbar {
+      @include navbar-variant($black, #fff);
+      .sidebar-toggle {
+        color: #fff;
+        &:hover {
+          background-color: darken($black, 5%);
+        }
+      }
+      @media(max-width: $screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255,255,255,0.1);
+            }
+            a {
+              color: #fff;
+              &:hover {
+                background: darken($black, 5%);
+              }
+            }
+          }
+        }
+      }
+    }
+    //Logo
+    .logo {
+      @include logo-variant($black);
+    }
+
+    li.user-header {
+      background-color: $black;
+    }
+  }
+
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+
+  //Create the sidebar skin
+  @include skin-dark-sidebar($black);
+}
